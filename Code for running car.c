@@ -22,7 +22,7 @@ void loop() {
     command = "";
     command = Serial.readString();
     /*
-     Có thể đưa ra mã nhị phân để kiểm tra xem có size bit nào không.
+     show binary bit in the arduino IDE
      */
     while(command[i]!='\0'){
       encode[k] = command[i];
